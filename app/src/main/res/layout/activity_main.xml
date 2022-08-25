@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTurn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Turn: X"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="50pt"
+            android:layout_height="55pt"
+            android:layout_margin="5dp"
+            android:backgroundTint="#8C8C8C"
+            android:onClick="BuClick"
+            android:text=""
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="40pt"
+            android:backgroundTint="#000000"
+            android:onClick="reset"
+            android:text="RESET"
+            android:textSize="24sp" />
+    </TableRow>
+
+</TableLayout>
